@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ronak | BTech Student & Developer</title>
+  <meta name="description" content="Portfolio of Ronak — BTech student, developer and builder." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">ronak<span>.</span></a>
+      <button class="menu-btn" aria-label="Toggle menu" onclick="document.body.classList.toggle('menu-open')">☰</button>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="btn btn-small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero container">
+      <p class="eyebrow mono">Hello, I'm</p>
+      <h1>Ronak<span class="accent">.</span></h1>
+      <h2 class="tagline">BTech student building clean, useful software.</h2>
+      <p class="lead">I enjoy turning ideas into working products — from web apps to small tools that make everyday problems a little easier.</p>
+      <div class="cta">
+        <a href="#projects" class="btn">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <h3 class="section-title"><span class="mono">01.</span> About Me</h3>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm Ronak, a BTech student with a strong interest in software development, problem solving and modern web technologies. I like learning by building, and most of what I know comes from shipping projects and figuring things out along the way.</p>
+          <p>Outside the classroom I spend my time practising data structures and algorithms, exploring new frameworks, and contributing to team projects and hackathons.</p>
+          <p>I'm currently looking for <strong>internship opportunities</strong> where I can learn from experienced engineers and contribute to real products.</p>
+        </div>
+        <div class="about-card">
+          <div class="avatar">R</div>
+          <ul class="facts">
+            <li><span>🎓</span> BTech, Computer Science</li>
+            <li><span>📍</span> India</li>
+            <li><span>💼</span> Open to internships</li>
+            <li><span>✉️</span> gargronak321@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h3 class="section-title"><span class="mono">02.</span> Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Languages</h4>
+          <div class="tags"><span>C++</span><span>Python</span><span>Java</span><span>JavaScript</span><span>SQL</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>Web Development</h4>
+          <div class="tags"><span>HTML5</span><span>CSS3</span><span>React</span><span>Node.js</span><span>Express</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>Databases & Tools</h4>
+          <div class="tags"><span>MySQL</span><span>MongoDB</span><span>Git</span><span>GitHub</span><span>VS Code</span></div>
+        </div>
+        <div class="skill-card">
+          <h4>Core CS</h4>
+          <div class="tags"><span>Data Structures</span><span>Algorithms</span><span>OOP</span><span>DBMS</span><span>Operating Systems</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h3 class="section-title"><span class="mono">03.</span> Projects</h3>
+      <div class="projects-grid">
+        <article class="project">
+          <div class="project-top"><span class="folder">📁</span><a href="https://github.com/akshat1803/Ronak-portfolio" target="_blank" rel="noopener" aria-label="GitHub">↗</a></div>
+          <h4>Portfolio Website</h4>
+          <p>This responsive single-page portfolio, hand-built with semantic HTML and modern CSS and deployed on Render.</p>
+          <div class="stack mono"><span>HTML</span><span>CSS</span><span>Render</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="folder">📁</span><a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">↗</a></div>
+          <h4>Task Manager App</h4>
+          <p>A full-stack to-do application with user authentication, task categories and due-date reminders.</p>
+          <div class="stack mono"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="folder">📁</span><a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">↗</a></div>
+          <h4>Weather Dashboard</h4>
+          <p>A clean dashboard that shows live weather and a 5-day forecast for any city using a public weather API.</p>
+          <div class="stack mono"><span>JavaScript</span><span>REST API</span><span>CSS</span></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="folder">📁</span><a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">↗</a></div>
+          <h4>Student Record System</h4>
+          <p>A console-based system to add, search, update and delete student records with file-based persistence.</p>
+          <div class="stack mono"><span>C++</span><span>OOP</span><span>File I/O</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container contact">
+      <h3 class="section-title center"><span class="mono">04.</span> Get In Touch</h3>
+      <p class="lead center">Whether you have an opportunity, a project idea, or just want to say hi — my inbox is always open.</p>
+      <a class="btn btn-large" href="mailto:gargronak321@gmail.com">Say Hello</a>
+      <div class="socials">
+        <a href="mailto:gargronak321@gmail.com">Email</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Designed & built by Ronak · <span id="year"></span></p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    document.querySelectorAll('.links a').forEach(a => a.addEventListener('click', () => document.body.classList.remove('menu-open')));
+  </script>
+</body>
+</html>
